@@ -50,10 +50,10 @@ install_paketes() {
   clear && clear
   ### PAQUETES PRINCIPALES
   msg -bar2
-  msg -ama "  [ SCRIPT-VPS-MX 8.5x  \033[1;97m ❌ MOD By @Shein0425 ❌\033[1;33m ]"
+  msg -ama "  [ SCRIPT-VPS-MX 8.5x  \033[1;97m ❌ @aangel ❌\033[1;33m ]"
   msg -bar
   echo -e "\033[97m"
-  echo -e "  \033[41m    -- INSTALACION DE PAQUETES PARA VPS-MX --    \e[49m"
+  echo -e "  \033[41m    -- INSTALACION DE PAQUETES PARA VPS-AR --    \e[49m"
   echo -e "\033[97m"
   msg -bar
   #grep
@@ -232,11 +232,11 @@ echo "exit 0" >>/etc/rc.local
 /bin/cp /etc/skel/.bashrc ~/
 echo 'clear' >>.bashrc
 echo 'echo ""' >>.bashrc
-echo 'echo -e "\t\033[91m __     ______  ____        __  ____  __ " ' >>.bashrc
-echo 'echo -e "\t\033[91m \ \   / /  _ \/ ___|      |  \/  \ \/ / " ' >>.bashrc
-echo 'echo -e "\t\033[91m  \ \ / /| |_) \___ \ _____| |\/| |\  /  " ' >>.bashrc
-echo 'echo -e "\t\033[91m   \ V / |  __/ ___) |_____| |  | |/  \  " ' >>.bashrc
-echo 'echo -e "\t\033[91m    \_/  |_|   |____/      |_|  |_/_/\_\ " ' >>.bashrc
+echo 'echo -e "\t\033[91m  _    ______  _____       ___    ____  " ' >>.bashrc
+echo 'echo -e "\t\033[91m | |  / / __ \/ ___/      /   |  / __ \ " ' >>.bashrc
+echo 'echo -e "\t\033[91m | | / / /_/ /\__ \______/ /| | / /_/ / " ' >>.bashrc
+echo 'echo -e "\t\033[91m | |/ / ____/___/ /_____/ ___ |/ _, _/  " ' >>.bashrc
+echo 'echo -e "\t\033[91m |___/_/    /____/     /_/  |_/_/ |_|   " ' >>.bashrc
 echo 'echo "" ' >>.bashrc
 echo 'mess1="$(less /etc/VPS-MX/message.txt)" ' >>.bashrc
 echo 'echo "" ' >>.bashrc
